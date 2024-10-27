@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutUsImage from './about-us.jpg';
+
 const AboutUs: React.FC = () => {
   return (
     <section id="about" className="flex items-center h-screen bg-gradient-to-r from-blue-50 to-indigo-100">
