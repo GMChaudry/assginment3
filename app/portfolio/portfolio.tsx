@@ -1,5 +1,4 @@
 import React from 'react';
-//import portfolioImage from './portfolio.jpg'; // Adjust the image name and path as necessary
 
 const Portfolio: React.FC = () => {
   return (
@@ -7,7 +6,7 @@ const Portfolio: React.FC = () => {
       {/* Left Side Image */}
       <div className="hidden md:block w-1/2 h-full relative">
         <img
-          src="https://via.placeholder.com/600x800" // Use your imported image here
+          src="https://via.placeholder.com/600x800" 
           alt="Portfolio Showcase"
           className="w-full h-full object-cover rounded-l-xl shadow-lg"
         />
